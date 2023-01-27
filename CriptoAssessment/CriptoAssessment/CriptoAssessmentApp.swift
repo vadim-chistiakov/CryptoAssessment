@@ -11,7 +11,11 @@ import SwiftUI
 struct CriptoAssessmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CryptoTableView(
+                viewModel: CryptoViewModel(
+                    apiService: APIServiceImpl()
+                )
+            )
         }
     }
 }

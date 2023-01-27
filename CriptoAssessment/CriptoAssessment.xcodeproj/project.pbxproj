@@ -11,6 +11,11 @@
 		AEF923BD298441B400771CBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF923BC298441B400771CBD /* ContentView.swift */; };
 		AEF923BF298441B500771CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF923BE298441B500771CBD /* Assets.xcassets */; };
 		AEF923C2298441B500771CBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF923C1298441B500771CBD /* Preview Assets.xcassets */; };
+		AEF923C9298442D400771CBD /* CryptoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF923C8298442D400771CBD /* CryptoTableView.swift */; };
+		AEF923CB2984430000771CBD /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF923CA2984430000771CBD /* CryptoViewModel.swift */; };
+		AEF923CD2984485300771CBD /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF923CC2984485300771CBD /* ApiService.swift */; };
+		AEF923CF29844B0400771CBD /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF923CE29844B0400771CBD /* Currency.swift */; };
+		AEF923D12984528E00771CBD /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF923D02984528E00771CBD /* CryptoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		AEF923BC298441B400771CBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEF923BE298441B500771CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEF923C1298441B500771CBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEF923C8298442D400771CBD /* CryptoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableView.swift; sourceTree = "<group>"; };
+		AEF923CA2984430000771CBD /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		AEF923CC2984485300771CBD /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		AEF923CE29844B0400771CBD /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		AEF923D02984528E00771CBD /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				AEF923BA298441B400771CBD /* CriptoAssessmentApp.swift */,
 				AEF923BC298441B400771CBD /* ContentView.swift */,
+				AEF923C8298442D400771CBD /* CryptoTableView.swift */,
+				AEF923D02984528E00771CBD /* CryptoCell.swift */,
+				AEF923CA2984430000771CBD /* CryptoViewModel.swift */,
+				AEF923CC2984485300771CBD /* ApiService.swift */,
+				AEF923CE29844B0400771CBD /* Currency.swift */,
 				AEF923BE298441B500771CBD /* Assets.xcassets */,
 				AEF923C0298441B500771CBD /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF923CF29844B0400771CBD /* Currency.swift in Sources */,
 				AEF923BD298441B400771CBD /* ContentView.swift in Sources */,
+				AEF923CD2984485300771CBD /* ApiService.swift in Sources */,
+				AEF923CB2984430000771CBD /* CryptoViewModel.swift in Sources */,
+				AEF923D12984528E00771CBD /* CryptoCell.swift in Sources */,
 				AEF923BB298441B400771CBD /* CriptoAssessmentApp.swift in Sources */,
+				AEF923C9298442D400771CBD /* CryptoTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
